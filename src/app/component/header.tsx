@@ -46,7 +46,7 @@ function Header() {
       <div className={`md:flex ${show ? "block" : "hidden"} bg-[#F0F2F3]  md:m-6 md:bg-transparent md:w-full w-auto h-full md:px-28 items-center font-bold md:text-black  md:bg-[#fff]`}>
         <div className="flex flex-col md:flex-row p-4 w-auto md:p-0">
           <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 cursor-pointer">
-            <li> <Link href="http://localhost:3000">Home</Link></li>
+            <li> <Link href="/">Home</Link></li>
             <li> <Link href="/dashboard/">Shop</Link></li>
             <li> <Link href="/dashboard/product">Product</Link></li>
             <li> <Link href="/dashboard/page">Page</Link></li>
